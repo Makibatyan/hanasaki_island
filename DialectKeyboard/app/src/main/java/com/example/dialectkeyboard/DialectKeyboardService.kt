@@ -18,6 +18,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
+import android.annotation.SuppressLint
 
 class DialectKeyboardService : InputMethodService(), FlickKeyboardView.KeyActionListener {
 
@@ -49,6 +50,7 @@ class DialectKeyboardService : InputMethodService(), FlickKeyboardView.KeyAction
         serviceScope.cancel()
     }
 
+    @SuppressLint("InflateParams")
     override fun onCreateInputView(): View {
         val themedContext = ContextThemeWrapper(this, R.style.Theme_DialectKeyboard)
         val themedInflater = LayoutInflater.from(themedContext)
@@ -76,9 +78,25 @@ class DialectKeyboardService : InputMethodService(), FlickKeyboardView.KeyAction
         }
 
         view.findViewById<Button>(R.id.btn_panel_apply)?.setOnClickListener {
-            DialectRegionManager.setSelectedPrefectures(this, tempSelectedPrefs)
+
+            DialectRegionManager.setSelectedPrefectures(
+                this,
+                tempSelectedPrefs.toSet()
+            )
+
+            // 以前の検索を停止
+            searchJob?.cancel()
+
+            // 古い候補を消す
+            currentCandidateList.clear()
+            candidateAdapter?.updateCandidates(emptyList())
+
             closeRegionPanel()
-            updateComposingState()
+
+            // 現在入力中の文字列で即再検索
+            if (composingText.isNotEmpty()) {
+                updateComposingState()
+            }
         }
 
         flickKeyboardView = view.findViewById(R.id.flick_keyboard_view)
@@ -150,7 +168,7 @@ class DialectKeyboardService : InputMethodService(), FlickKeyboardView.KeyAction
             }
 
             val regionCb = CheckBox(this).apply {
-                text = "$regionName (一括)"
+                text = "$regionName"
                 textSize = 14f
                 paint.isFakeBoldText = true
                 setTextColor(0xFF1976D2.toInt())

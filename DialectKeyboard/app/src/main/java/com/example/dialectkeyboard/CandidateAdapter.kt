@@ -25,8 +25,12 @@ class CandidateAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val entry = candidates[position]
+
         holder.textCandidate.text = entry.word
-        holder.textRegion?.text = if (entry.isDialect) entry.region else ""
+
+        // 説明欄に【意味】＋地域を表示
+        holder.textRegion?.text = entry.description
+
         holder.itemView.setOnClickListener {
             onCandidateClick(entry)
         }
@@ -34,6 +38,7 @@ class CandidateAdapter(
 
     override fun getItemCount(): Int = candidates.size
 
+    @Suppress("NotifyDataSetChanged")
     fun updateCandidates(newCandidates: List<DialectEntry>) {
         candidates.clear()
         candidates.addAll(newCandidates)
