@@ -1,0 +1,161 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dialectkeyboard"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- インターネット通信権限（Google変換API用） -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:5:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.13.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/1e265c0cb5cfa55376b62e1f79e5fa7f/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.dialectkeyboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.13.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/1e265c0cb5cfa55376b62e1f79e5fa7f/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.13.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/1e265c0cb5cfa55376b62e1f79e5fa7f/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.dialectkeyboard.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.13.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/1e265c0cb5cfa55376b62e1f79e5fa7f/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.13.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/1e265c0cb5cfa55376b62e1f79e5fa7f/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:7:5-40:19
+21        android:allowBackup="true"
+21-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.13.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/1e265c0cb5cfa55376b62e1f79e5fa7f/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@android:drawable/sym_def_app_icon"
+25-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:9:9-58
+26        android:label="@string/app_name"
+26-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:10:9-41
+27        android:roundIcon="@android:drawable/sym_def_app_icon"
+27-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:11:9-63
+28        android:supportsRtl="true"
+28-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:12:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.DialectKeyboard"
+30-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:14:9-53
+31        android:usesCleartextTraffic="true" >
+31-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:13:9-44
+32
+33        <!-- 設定・テスト用画面 -->
+34        <activity
+34-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:17:9-24:20
+35            android:name="com.example.dialectkeyboard.MainActivity"
+35-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:18:13-41
+36            android:exported="true" >
+36-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:19:13-36
+37            <intent-filter>
+37-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:20:13-23:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:21:17-69
+38-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:21:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:22:17-77
+40-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:22:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <!-- キーボード本体のバックグラウンドサービス -->
+45        <service
+45-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:27:9-38:19
+46            android:name="com.example.dialectkeyboard.DialectKeyboardService"
+46-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:28:13-51
+47            android:exported="true"
+47-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:29:13-36
+48            android:label="@string/ime_name"
+48-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:30:13-45
+49            android:permission="android.permission.BIND_INPUT_METHOD" >
+49-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:31:13-70
+50            <intent-filter>
+50-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:32:13-34:29
+51                <action android:name="android.view.InputMethod" />
+51-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:33:17-67
+51-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:33:25-64
+52            </intent-filter>
+53
+54            <meta-data
+54-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:35:13-37:50
+55                android:name="android.view.im"
+55-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:36:17-47
+56                android:resource="@xml/method" />
+56-->/Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:37:17-47
+57        </service>
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.3.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/ae8684c001951cb79b50287ff84e96df/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.3.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/ae8684c001951cb79b50287ff84e96df/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.dialectkeyboard.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.3.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/ae8684c001951cb79b50287ff84e96df/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.3.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/ae8684c001951cb79b50287ff84e96df/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.3.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/ae8684c001951cb79b50287ff84e96df/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.3.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/ae8684c001951cb79b50287ff84e96df/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.3.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/ae8684c001951cb79b50287ff84e96df/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/k25046kk/.gradle/caches/9.0.0/transforms/4bcb3f8fea792a6690af56d0b6ff2cca/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/k25046kk/.gradle/caches/9.0.0/transforms/4bcb3f8fea792a6690af56d0b6ff2cca/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/k25046kk/.gradle/caches/9.0.0/transforms/4bcb3f8fea792a6690af56d0b6ff2cca/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e047d6d9539f848ed7ab2ea6025afb5d/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>

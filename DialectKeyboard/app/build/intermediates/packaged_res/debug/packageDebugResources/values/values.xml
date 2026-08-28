@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF4081</color>
+    <color name="candidate_bg">#FFFFFF</color>
+    <color name="divider">#CFD8DC</color>
+    <color name="kb_bg">#ECEFF1</color>
+    <color name="key_action">#2196F3</color>
+    <color name="key_function">#B0BEC5</color>
+    <color name="key_normal">#FFFFFF</color>
+    <color name="key_pressed">#CFD8DC</color>
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <string name="app_name">方言キーボード (COJADS)</string>
+    <string name="btn_enable_ime">1. キーボードを有効化する</string>
+    <string name="btn_switch_ime">2. キーボードを選択する</string>
+    <string name="ime_name">方言キーボード</string>
+    <string name="setup_guide">設定手順：\n1. 「有効化」をタップし、一覧から「方言キーボード」をONにします。\n2. 「選択」をタップし、入力方法に「方言キーボード」を指定します。\n3. LINEや検索欄でフリック入力をお試しください。</string>
+    <style name="Theme.DialectKeyboard" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">@color/accent</item>
+    </style>
+</resources>
