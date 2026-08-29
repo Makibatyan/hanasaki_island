@@ -1,26 +1,22 @@
 [
     {
-        "merged": "/Users/k25046kk/.gradle/daemon/9.0.0/com.example.dialectkeyboard.app-debug-32:/layout_activity_main.xml.flat",
-        "source": "/Users/k25046kk/.gradle/daemon/9.0.0/com.example.dialectkeyboard.app-main-34:/layout/activity_main.xml"
+        "merged": "com.example.dialectkeyboard.app-debug-32:/layout_activity_main.xml.flat",
+        "source": "com.example.dialectkeyboard.app-main-34:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/k25046kk/.gradle/daemon/9.0.0/com.example.dialectkeyboard.app-debug-32:/layout_item_candidate.xml.flat",
-        "source": "/Users/k25046kk/.gradle/daemon/9.0.0/com.example.dialectkeyboard.app-main-34:/layout/item_candidate.xml"
+        "merged": "com.example.dialectkeyboard.app-debug-32:/layout_item_candidate.xml.flat",
+        "source": "com.example.dialectkeyboard.app-main-34:/layout/item_candidate.xml"
     },
     {
         "merged": "com.example.dialectkeyboard.app-debug-32:/layout_keyboard_view.xml.flat",
         "source": "com.example.dialectkeyboard.app-main-34:/layout/keyboard_view.xml"
     },
     {
-        "merged": "/Users/k25046kk/.gradle/daemon/9.0.0/com.example.dialectkeyboard.app-debug-32:/layout_keyboard_view.xml.flat",
-        "source": "/Users/k25046kk/.gradle/daemon/9.0.0/com.example.dialectkeyboard.app-main-34:/layout/keyboard_view.xml"
+        "merged": "com.example.dialectkeyboard.app-debug-32:/xml_method.xml.flat",
+        "source": "com.example.dialectkeyboard.app-main-34:/xml/method.xml"
     },
     {
-        "merged": "/Users/k25046kk/.gradle/daemon/9.0.0/com.example.dialectkeyboard.app-debug-32:/xml_method.xml.flat",
-        "source": "/Users/k25046kk/.gradle/daemon/9.0.0/com.example.dialectkeyboard.app-main-34:/xml/method.xml"
-    },
-    {
-        "merged": "/Users/k25046kk/.gradle/daemon/9.0.0/com.example.dialectkeyboard.app-debug-32:/layout_androidmanifest.xml.flat",
-        "source": "/Users/k25046kk/.gradle/daemon/9.0.0/com.example.dialectkeyboard.app-main-34:/layout/androidmanifest.xml"
+        "merged": "com.example.dialectkeyboard.app-debug-32:/layout_androidmanifest.xml.flat",
+        "source": "com.example.dialectkeyboard.app-main-34:/layout/androidmanifest.xml"
     }
 ]

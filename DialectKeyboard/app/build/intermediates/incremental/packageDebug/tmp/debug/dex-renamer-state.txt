@@ -1,7 +1,7 @@
-#Fri Aug 28 11:50:37 JST 2026
-base.0=/Users/k25046kk/Downloads/DialectKeyboard/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-base.1=/Users/k25046kk/Downloads/DialectKeyboard/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-base.2=/Users/k25046kk/Downloads/DialectKeyboard/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
+#Sun Aug 30 02:54:03 JST 2026
+base.0=/Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/build/intermediates/dex/debug/mergeProjectDexDebug/6/classes.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=6/classes.dex

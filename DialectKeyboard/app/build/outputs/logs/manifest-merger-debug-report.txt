@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:2:1-42:12
-INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:2:1-42:12
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [com.google.android.material:material:1.12.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/0c45afc7a6c5c40c3c82e66d616a3999/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/aeff89531198c9021af64836ef6cd2fc/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/64e2c99aaaa1c22bf12a17dadb335a69/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
@@ -47,20 +47,20 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/k25046kk/.gradle/c
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/621752f2a9d32f19eb5f2d9d98a84c9e/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/1f5a60f8adef723c0154c93dd0ea3743/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 	package
-		INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:7:5-40:19
-INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:7:5-40:19
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:7:5-40:19
+INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:7:5-40:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/0c45afc7a6c5c40c3c82e66d616a3999/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/0c45afc7a6c5c40c3c82e66d616a3999/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/64e2c99aaaa1c22bf12a17dadb335a69/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
@@ -78,65 +78,65 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/k250
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e9c157ab9dc006dbe1226e27f62ff393/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/e9c157ab9dc006dbe1226e27f62ff393/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 	android:extractNativeLibs
-		INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.1] /Users/k25046kk/.gradle/caches/9.0.0/transforms/1e265c0cb5cfa55376b62e1f79e5fa7f/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:10:9-41
 	android:roundIcon
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:11:9-63
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:11:9-63
 	android:icon
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:9:9-58
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:9:9-58
 	android:allowBackup
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:8:9-35
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:14:9-53
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:14:9-53
 	android:usesCleartextTraffic
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:13:9-44
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:13:9-44
 activity#com.example.dialectkeyboard.MainActivity
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:17:9-24:20
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:17:9-24:20
 	android:exported
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:19:13-36
 	android:name
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:18:13-41
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:18:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:20:13-23:29
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:22:27-74
 service#com.example.dialectkeyboard.DialectKeyboardService
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:27:9-38:19
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:27:9-38:19
 	android:label
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:30:13-45
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:30:13-45
 	android:exported
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:29:13-36
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:29:13-36
 	android:permission
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:31:13-70
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:31:13-70
 	android:name
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:28:13-51
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:28:13-51
 intent-filter#action:name:android.view.InputMethod
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:32:13-34:29
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:32:13-34:29
 action#android.view.InputMethod
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:33:17-67
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:33:17-67
 	android:name
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:33:25-64
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:33:25-64
 meta-data#android.view.im
-ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:35:13-37:50
+ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:35:13-37:50
 	android:resource
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:37:17-47
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:37:17-47
 	android:name
-		ADDED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml:36:17-47
+		ADDED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml:36:17-47
 uses-sdk
-INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml
-INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml
+INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml
+INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.12.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/0c45afc7a6c5c40c3c82e66d616a3999/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.12.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/0c45afc7a6c5c40c3c82e66d616a3999/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/aeff89531198c9021af64836ef6cd2fc/transformed/jetified-appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
@@ -222,9 +222,9 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/1f5a60f8adef723c0154c93dd0ea3743/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/1f5a60f8adef723c0154c93dd0ea3743/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
 	android:targetSdkVersion
-		INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/k25046kk/Downloads/DialectKeyboard/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/k25046kk/StudioProjects/hanasaki_island/DialectKeyboard/app/src/main/AndroidManifest.xml
 provider#androidx.startup.InitializationProvider
 ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/k25046kk/.gradle/caches/9.0.0/transforms/ae8684c001951cb79b50287ff84e96df/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /Users/k25046kk/.gradle/caches/9.0.0/transforms/4bcb3f8fea792a6690af56d0b6ff2cca/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
